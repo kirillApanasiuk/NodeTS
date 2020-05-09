@@ -9,6 +9,7 @@ import chalk, { bold } from 'chalk';
 
 //Create add command
 yargs.command({
+
   command: 'add',
   describe: 'Add new note',
   builder: {

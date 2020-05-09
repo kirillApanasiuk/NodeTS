@@ -8,6 +8,7 @@ class Notes {
   };
 
   addNote = (title: string, body: string) => {
+    debugger;
     console.log(chalk.red(title, body));
     const notes = this.loadNotes();
     if (
